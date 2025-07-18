@@ -1,11 +1,52 @@
+# Python
 __pycache__/
-*.pyc
-*.sqlite3
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+*.egg-info/
+*.bak
+*.log
+*.swp
+
+# Wirtualne środowisko
+venv/
 .env
 .env.*
-*.log
-*.bak
+
+# Django
 db.sqlite3
-*.swp
+
+# VS Code
 .vscode/
+
+# PyCharm / IntelliJ
 .idea/
+
+# Docker
+docker-compose.override.yml
+Dockerfile.*
+.docker/
+docker-data/
+*.tar
+*.img
+*.pid
+
+# PostgreSQL & pgAdmin (jeśli robisz backupy itp.)
+pgadmin-data/
+pgadmin_data/
+postgres_data/
+
+# media/static (jeśli nie chcesz wrzucać plików użytkownika / migracji testowych)
+media/
+staticfiles/
+static/
+
+# Systemowe
+Thumbs.db
+.DS_Store
+
+# Backupy i inne
+*.orig
+*.rej
+*.~*
